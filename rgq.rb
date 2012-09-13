@@ -1,4 +1,7 @@
 # rgq.rb
+
+require "rexml/document"
+
 class SMP
     def initialize (nome)
         @nome = nome
@@ -31,6 +34,7 @@ class Periodo
 end
 
 class RgqAnatel
+    
     def initialize (cnpj, indicadores_str)
         @cnpj = cnpj
         @indicadores_str = indicadores_str
@@ -38,22 +42,33 @@ class RgqAnatel
     end
     
     def build
+        
+        #TODO: So falta criar a rotina que pega os Maps e transforma em XML ANATEL aqui.
         parse(@indicadores_str) {|indice| puts indice}
     end
     
     def parse(str)
         if (block_given?)
-            indice = Hash.new 
             
-            indice['indicador'] = str.scan(/<Indicador>(.*)<\/Indicador>/)                        
-            indice['unidade_primaria'] = str.scan(/<UnidadePrimaria>(.*)<\/UnidadePrimaria>/)
-            indice['periodo_coleta'] = str.scan(/<PeriodoColeta>(.*)<\/PeriodoColeta>/)
-            indice['fator_ponderacao'] = str.scan(/<FatorPonderacao>(.*)<\/FatorPonderacao>/)
-            indice['fator_valor'] = str.scan(/<FatorPonderacaoValor>(.*)<\/FatorPonderacaoValor>/)
-            indice['indice'] = str.scan(/<indice>(.*)<\/indice>/)
-            indice['valor'] = str.scan(/<valor>(.*)<\/valor>/)
+            doc = REXML::Document.new str
             
-            yield(indice)
+            doc.elements.each("Anatel/Indice") do |element| 
+                
+                indice = Hash.new
+                
+                indice["Outorga"] = element.get_elements("Outorga")[0].get_text();
+                indice["Indicador"] = element.get_elements("Indicador")[0].get_text();
+                indice["UnidadePrimaria"] = element.get_elements("UnidadePrimaria")[0].get_text();
+                indice["PeriodoColeta"] = element.get_elements("PeriodoColeta")[0].get_text();
+                indice["FatorPonderacao"] = element.get_elements("FatorPonderacao")[0].get_text();
+                indice["FatorPonderacaoValor"] = element.get_elements("FatorPonderacaoValor")[0].get_text();
+                indice["indice"] = element.get_elements("indice")[0].get_text();
+                indice["valor"] = element.get_elements("valor")[0].get_text();
+                
+                yield(indice) 
+            end 
+            
+            
         else 
             puts "Fail to parse indicadores. There is no Block of code to use!!!"
         end
@@ -98,8 +113,6 @@ indicadores_str = <<END_OF_STRING
 </Anatel>
 END_OF_STRING
 
-
-puts indicadores_str
 
 r = RgqAnatel.new("05835916000185", indicadores_str)
 
