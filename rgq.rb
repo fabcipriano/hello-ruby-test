@@ -1,76 +1,69 @@
 # rgq.rb
 
 require "rexml/document"
+require "rexml/namespace"
+require "rexml/node"
 
-class SMP
-    def initialize (nome)
-        @nome = nome
-        @unidades = Array.new
-    end
-
-    def append (unidade)
-        @unidades.push(unidade)
+class Parser
+    def each_indice(&handle)
+        raise "TODO Implement THIS!!!"
     end
 end
 
-class Unidade
-    def initialize (primaria)
-        @primaria = primaria
-        @periodos = Array.new 
-    end
+class ParserXML < Parser
     
-    def append (periodo)
-        @periodos.push(periodo)
+    include REXML
+    
+    def initialize (str_document)
+        @str_document = str_document
     end
-end
-
-class Periodo
-    def initialize (coleta, fator_ponderacao, fator_valor, indice, valor)
-        @coleta = coleta
         
-        @fator_ponderacao, @fator_valor, @indice, @valor = fator_ponderacao, fator_valor, indice, valor
+    def each_indice(&handle)
+
+      if (handle.nil?)
+          raise "Handler is null!!!"
+      end
+
+      doc = Document.new @str_document      
+      doc.elements.each("Anatel/Indice") do |element| 
+          
+        indice = Hash.new
+        
+        element.elements.each
+        
+        indice["Outorga"] = element.get_elements("Outorga")[0].get_text();
+        indice["Indicador"] = element.get_elements("Indicador")[0].get_text();
+        indice["UnidadePrimaria"] = element.get_elements("UnidadePrimaria")[0].get_text();
+        indice["PeriodoColeta"] = element.get_elements("PeriodoColeta")[0].get_text();
+        indice["FatorPonderacao"] = element.get_elements("FatorPonderacao")[0].get_text();
+        indice["FatorPonderacaoValor"] = element.get_elements("FatorPonderacaoValor")[0].get_text();
+        indice["indice"] = element.get_elements("indice")[0].get_text();
+        indice["valor"] = element.get_elements("valor")[0].get_text();
+        handle.call(indice)           
+      end 
         
     end
 end
 
 class RgqAnatel
     
-    def initialize (cnpj, indicadores_str)
+    def initialize (cnpj, parser)
         @cnpj = cnpj
-        @indicadores_str = indicadores_str
-        smps = Array.new 
+        @parser = parser
     end
     
     def build
         
         #TODO: So falta criar a rotina que pega os Maps e transforma em XML ANATEL aqui.
-        parse(@indicadores_str) {|indice| puts indice}
+        parse() {|indice| puts indice}
+        
     end
     
-    def parse(str)
-        if (block_given?)
-            
-            doc = REXML::Document.new str
-            
-            doc.elements.each("Anatel/Indice") do |element| 
-                
-                indice = Hash.new
-                
-                indice["Outorga"] = element.get_elements("Outorga")[0].get_text();
-                indice["Indicador"] = element.get_elements("Indicador")[0].get_text();
-                indice["UnidadePrimaria"] = element.get_elements("UnidadePrimaria")[0].get_text();
-                indice["PeriodoColeta"] = element.get_elements("PeriodoColeta")[0].get_text();
-                indice["FatorPonderacao"] = element.get_elements("FatorPonderacao")[0].get_text();
-                indice["FatorPonderacaoValor"] = element.get_elements("FatorPonderacaoValor")[0].get_text();
-                indice["indice"] = element.get_elements("indice")[0].get_text();
-                indice["valor"] = element.get_elements("valor")[0].get_text();
-                
-                yield(indice) 
-            end 
-            
-            
+    def parse(&handle)
+        if (handle.nil?)            
+            raise "Fail to parse indicadores. There is no Block of code to use!!!"
         else 
-            puts "Fail to parse indicadores. There is no Block of code to use!!!"
+            @parser.each_indice(&handle) 
         end
     end
     
@@ -114,6 +107,5 @@ indicadores_str = <<END_OF_STRING
 END_OF_STRING
 
 
-r = RgqAnatel.new("05835916000185", indicadores_str)
-
+r = RgqAnatel.new("05835916000185", ParserXML.new(indicadores_str))
 r.build
