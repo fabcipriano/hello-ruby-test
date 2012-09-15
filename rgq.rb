@@ -20,17 +20,20 @@ class ParserXML < Parser
         
     def each_indice(&handle)
 
-      if (handle.nil?)
-          raise "Handler is null!!!"
-      end
-
-      doc = Document.new @str_document      
-      doc.elements.each("Anatel/Indice") do |element| 
-          
+        if (handle.nil?)
+            raise "Handler is null!!!"
+        end
+  
+        doc = Document.new @str_document      
+        doc.elements.each("Anatel/Indice") do |element| 
+        indice = return_indice_from(element)
+        handle.call(indice)                                   
+#            element.elements.each
+        end           
+    end
+    
+    def return_indice_from(element)
         indice = Hash.new
-        
-        element.elements.each
-        
         indice["Outorga"] = element.get_elements("Outorga")[0].get_text();
         indice["Indicador"] = element.get_elements("Indicador")[0].get_text();
         indice["UnidadePrimaria"] = element.get_elements("UnidadePrimaria")[0].get_text();
@@ -39,10 +42,10 @@ class ParserXML < Parser
         indice["FatorPonderacaoValor"] = element.get_elements("FatorPonderacaoValor")[0].get_text();
         indice["indice"] = element.get_elements("indice")[0].get_text();
         indice["valor"] = element.get_elements("valor")[0].get_text();
-        handle.call(indice)           
-      end 
         
+        indice
     end
+    
 end
 
 class RgqAnatel
