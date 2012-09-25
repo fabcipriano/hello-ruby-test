@@ -78,21 +78,70 @@ class RgqFormatter
         
         elOutorga = find_or_create_outorga(h["Outorga"], doc)
         
-        if (nil.equal?(elOutorga) || elOutorga.empty?) 
-            raise "Error from parser! No Outorga element!"
-        end
+        elIndicador = find_or_create_indicador(h["Indicador"], elOutorga)
         
-        if (elOutorga.size > 1) 
-            raise "Error from parser! Too many elements from Outorga"
-        end
+        elUp = find_or_create_unidadeprimaria(h["UnidadePrimaria"], elIndicador)
         
-        
+        find_or_create_periodocoleta(h["PeriodoColeta"], 
+            h["FatorPonderacao"], 
+            h["FatorPonderacaoValor"], 
+            h["indice"], 
+            h["valor"], elUp)
         
     end
     
-    def find_outorga(cnpj, doc)
+    def find_or_create_periodocoleta(periodo, fator, fator_valor, indice, valor, element)
+        raise "Implement THIS!!!"
+    end
+
+    def find_or_create_unidadeprimaria(valorup, element)
+        
+        if (element.elements["Unidade"].nil?) 
+            element.add_element("Unidade", {"Primaria"=>"#{valorup}"})            
+            puts "Adiciona Unidade"          
+        end
+
+        elUP = element.get_elements("./Unidade[@Primaria='#{valorup}']")
+
+        if (elUP.size > 1) 
+            raise "Error from parser! Too many elements from Indicador"
+        end        
+        
+        elUP[0]
+    end
+    
+    def find_or_create_indicador(ind, element)
+        
+        if (element.elements["#{ind}"].nil?) 
+            element.add_element("#{ind}")  
+            puts "Adiciona #{ind}"          
+        end
+        
+        elIndicador = element.get_elements("./#{ind}")
+
+        if (elIndicador.size > 1) 
+            raise "Error from parser! Too many elements from Indicador"
+        end        
+        
+        elIndicador[0]
+    end
+    
+    def find_or_create_outorga(cnpj, doc)
+        
+        if (!doc.root.elements["/root/ColetaSMP"].has_elements?)                
+            doc.root.elements["/root/ColetaSMP"].add_element("Outorga", {"CNPJ"=>"#{cnpj}"})
+        end
         elements = doc.root.get_elements("/root/ColetaSMP/Outorga[@CNPJ='#{cnpj}']")
-        elements
+
+        if (nil.equal?(elements) || elements.empty?) 
+            raise "Error from parser! No Outorga element!"
+        end
+                
+        if (elements.size > 1) 
+            raise "Error from parser! Too many elements from Outorga"
+        end
+
+        elements[0]
     end
     
 end
@@ -150,8 +199,6 @@ END_OF_STRING
 anatel_str = <<END_OF_STRING
 <root>
   <ColetaSMP ano="2012" mes="8" TipoArquivo="0" Identificador="stringxxxxx">
-    <Outorga CNPJ="05835916000185-">
-    </Outorga>
   </ColetaSMP>
 </root>
 END_OF_STRING
@@ -162,4 +209,6 @@ doc = REXML::Document.new anatel_str
 formatter = RgqFormatter.new 
 
 formatter.add_element_from_item(items, doc)
+
+puts doc
 
