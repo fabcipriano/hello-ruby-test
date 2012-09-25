@@ -76,13 +76,13 @@ class RgqFormatter
     def add_element_from_item(h, doc)
         
         
-        elOutorga = find_or_create_outorga(h["Outorga"], doc)
+        elOutorga = add_outorga(h["Outorga"], doc)
         
-        elIndicador = find_or_create_indicador(h["Indicador"], elOutorga)
+        elIndicador = add_indicador(h["Indicador"], elOutorga)
         
-        elUp = find_or_create_unidadeprimaria(h["UnidadePrimaria"], elIndicador)
+        elUp = add_unidadeprimaria(h["UnidadePrimaria"], elIndicador)
         
-        find_or_create_periodocoleta(h["PeriodoColeta"], 
+        add_periodocoleta(h["PeriodoColeta"], 
             h["FatorPonderacao"], 
             h["FatorPonderacaoValor"], 
             h["indice"], 
@@ -90,14 +90,16 @@ class RgqFormatter
         
     end
     
-    def find_or_create_periodocoleta(periodo, fator, fator_valor, indice, valor, element)
+    def add_periodocoleta(periodo, fator, fator_valor, indice, valor, element)
         raise "Implement THIS!!!"
     end
 
-    def find_or_create_unidadeprimaria(valorup, element)
+    def add_unidadeprimaria(valorup, element)
         
-        if (element.elements["Unidade"].nil?) 
-            element.add_element("Unidade", {"Primaria"=>"#{valorup}"})            
+        if (element.elements["Unidade"].nil? || 
+                !element.elements["Unidade"].attribute("Primaria").value.eq?("#{valorup}"))
+                 
+            element.add_element("Unidade", {"Primaria"=>"#{valorup}"})
             puts "Adiciona Unidade"          
         end
 
@@ -110,7 +112,7 @@ class RgqFormatter
         elUP[0]
     end
     
-    def find_or_create_indicador(ind, element)
+    def add_indicador(ind, element)
         
         if (element.elements["#{ind}"].nil?) 
             element.add_element("#{ind}")  
@@ -126,7 +128,7 @@ class RgqFormatter
         elIndicador[0]
     end
     
-    def find_or_create_outorga(cnpj, doc)
+    def add_outorga(cnpj, doc)
         
         if (!doc.root.elements["/root/ColetaSMP"].has_elements?)                
             doc.root.elements["/root/ColetaSMP"].add_element("Outorga", {"CNPJ"=>"#{cnpj}"})
