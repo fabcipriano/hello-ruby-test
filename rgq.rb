@@ -26,23 +26,19 @@ class ParserXML < Parser
   
         doc = Document.new @str_document      
         doc.elements.each("Anatel/Indice") do |element| 
-        indice = return_indice_from(element)
-        handle.call(indice)                                   
-#            element.elements.each
-        end           
+            indice = return_indice_from(element)
+            handle.call(indice)                                   
+        end
     end
     
     def return_indice_from(element)
         indice = Hash.new
-        indice["Outorga"] = element.get_elements("Outorga")[0].get_text();
-        indice["Indicador"] = element.get_elements("Indicador")[0].get_text();
-        indice["UnidadePrimaria"] = element.get_elements("UnidadePrimaria")[0].get_text();
-        indice["PeriodoColeta"] = element.get_elements("PeriodoColeta")[0].get_text();
-        indice["FatorPonderacao"] = element.get_elements("FatorPonderacao")[0].get_text();
-        indice["FatorPonderacaoValor"] = element.get_elements("FatorPonderacaoValor")[0].get_text();
-        indice["indice"] = element.get_elements("indice")[0].get_text();
-        indice["valor"] = element.get_elements("valor")[0].get_text();
         
+        element.each do |child|
+             if child.instance_of?(Element)
+                indice[child.name] = child.text
+             end  
+        end        
         indice
     end
     
@@ -72,8 +68,46 @@ class RgqAnatel
     
 end
 
-# Simulando o carregamento dos indicadores
+class RgqFormatter
+    def initializer()
+        puts "created"
+    end
+    
+    def add_element_from_item(h, doc)
+        
+        
+        elOutorga = find_or_create_outorga(h["Outorga"], doc)
+        
+        if (nil.equal?(elOutorga) || elOutorga.empty?) 
+            raise "Error from parser! No Outorga element!"
+        end
+        
+        if (elOutorga.size > 1) 
+            raise "Error from parser! Too many elements from Outorga"
+        end
+        
+        
+        
+    end
+    
+    def find_outorga(cnpj, doc)
+        elements = doc.root.get_elements("/root/ColetaSMP/Outorga[@CNPJ='#{cnpj}']")
+        elements
+    end
+    
+end
 
+#Simulando Hash com elementos de um XML
+items = {"Outorga"=>"05835916000185", 
+  "Indicador"=>"SMP3", 
+  "UnidadePrimaria"=>"00546", 
+  "PeriodoColeta"=>"1", 
+  "FatorPonderacao"=>"016", 
+  "FatorPonderacaoValor"=>"1049", 
+  "indice"=>"014", 
+  "valor"=>"1038"}
+
+# Simulando o carregamento dos indicadores
 indicadores_str = <<END_OF_STRING
 <Anatel>
     <Indice>
@@ -110,5 +144,22 @@ indicadores_str = <<END_OF_STRING
 END_OF_STRING
 
 
-r = RgqAnatel.new("05835916000185", ParserXML.new(indicadores_str))
-r.build
+#r = RgqAnatel.new("05835916000185", ParserXML.new(indicadores_str))
+#r.build
+
+anatel_str = <<END_OF_STRING
+<root>
+  <ColetaSMP ano="2012" mes="8" TipoArquivo="0" Identificador="stringxxxxx">
+    <Outorga CNPJ="05835916000185-">
+    </Outorga>
+  </ColetaSMP>
+</root>
+END_OF_STRING
+
+
+doc = REXML::Document.new anatel_str
+
+formatter = RgqFormatter.new 
+
+formatter.add_element_from_item(items, doc)
+
