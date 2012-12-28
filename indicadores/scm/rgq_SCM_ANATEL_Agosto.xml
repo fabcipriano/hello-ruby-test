@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SGQ.xsd">
+<ColetaSMP ano="2012" mes="8" TipoArquivo="0" Identificador="stringxxxxx">
+<Outorga CNPJ="71208516000174">
+<SCM1>
+    <Unidade Primaria="31">
+            <Conteudo indice="001" valor="4278"/>       
+            <Conteudo indice="002" valor="1537"/>       
+            <Conteudo indice="003" valor="1"/>        
+            <Conteudo indice="004" valor="22"/>        
+            <Conteudo indice="005" valor="13"/>        
+            <Conteudo indice="006" valor="283"/>
+    </Unidade>
+    <Unidade Primaria="35">        
+            <Conteudo indice="001" valor="1523"/>       
+            <Conteudo indice="002" valor="529"/>        
+            <Conteudo indice="003" valor="0"/>        
+            <Conteudo indice="004" valor="6"/>        
+            <Conteudo indice="005" valor="3"/>        
+            <Conteudo indice="006" valor="105"/>
+    </Unidade>
+    <Unidade Primaria="52">
+            <Conteudo indice="001" valor="218"/>       
+            <Conteudo indice="002" valor="97"/>        
+            <Conteudo indice="003" valor="0"/>        
+            <Conteudo indice="004" valor="0"/>        
+            <Conteudo indice="005" valor="1"/>        
+            <Conteudo indice="006" valor="21"/>
+    </Unidade>
+
+    <Unidade Primaria="50">
+            <Conteudo indice="001" valor="218"/>        
+            <Conteudo indice="002" valor="97"/>        
+            <Conteudo indice="003" valor="0"/>        
+            <Conteudo indice="004" valor="0"/>        
+            <Conteudo indice="005" valor="1"/>        
+            <Conteudo indice="006" valor="21"/>
+    </Unidade>
+
+</SCM1>
+<SCM3>
+    <Unidade Primaria="31">
+            <Conteudo indice="013"" valor="94"/>        
+            <Conteudo indice="014" valor="737"/>        
+            <Conteudo indice="015" valor="0"/>        
+            <Conteudo indice="016" valor="0"/>        
+            <Conteudo indice="017" valor="1"/>        
+            <Conteudo indice="018" valor="7"/>
+
+    </Unidade>
+
+    <Unidade Primaria="35">
+        
+            <Conteudo indice="013"" valor="45"/>        
+            <Conteudo indice="014" valor="252"/>        
+            <Conteudo indice="015" valor="0"/>        
+            <Conteudo indice="016" valor="0"/>        
+            <Conteudo indice="017" valor="0"/>        
+            <Conteudo indice="018" valor="3"/>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        
+            <Conteudo indice="013"" valor="7"/>        
+            <Conteudo indice="014" valor="53"/>        
+            <Conteudo indice="015" valor="0"/>        
+            <Conteudo indice="016" valor="0"/>        
+            <Conteudo indice="017" valor="0"/>        
+            <Conteudo indice="018" valor="1"/>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        
+            <Conteudo indice="013" valor="2"/>        
+            <Conteudo indice="014" valor="6"/>        
+            <Conteudo indice="015" valor="0"/>        
+            <Conteudo indice="016" valor="0"/>        
+            <Conteudo indice="017" valor="0"/>        
+            <Conteudo indice="018" valor="0"/>
+    </Unidade>
+
+</SCM3>
+<SCM4>
+    <Unidade Primaria="31">
+        <faixa velocidade="001">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        <faixa velocidade="001">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        <faixa velocidade="001">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        <faixa velocidade="001">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="19" valor="-1"/>
+            <Conteudo indice="20" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+</SCM4>
+<SCM5>
+    <Unidade Primaria="31">
+        <faixa velocidade="001">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        <faixa velocidade="001">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        <faixa velocidade="001">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        <faixa velocidade="001">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="22" valor="-1"/>
+            <Conteudo indice="23" valor="-1"/>
+            <Conteudo indice="24" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+</SCM5>
+<SCM6>
+    <Unidade Primaria="31">
+        <faixa velocidade="001">
+            <Conteudo indice="26" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="27" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        <faixa velocidade="001">
+            <Conteudo indice="26" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="27" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        <faixa velocidade="001">
+            <Conteudo indice="26" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="27" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        <faixa velocidade="001">
+            <Conteudo indice="26" valor="-1"/>
+        </faixa>
+      
+        <faixa velocidade="002">
+            <Conteudo indice="27" valor="-1"/>
+        </faixa>
+       
+    </Unidade>
+
+</SCM6>
+<SCM7>
+    <Unidade Primaria="31">
+        <faixa velocidade="001">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        <faixa velocidade="001">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        <faixa velocidade="001">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        <faixa velocidade="001">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="29" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+</SCM7>
+<SCM8>
+    <Unidade Primaria="31">
+        <faixa velocidade="001">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        <faixa velocidade="001">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        <faixa velocidade="001">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        <faixa velocidade="001">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="31" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+</SCM8>
+<SCM9>
+    <Unidade Primaria="31">
+        <faixa velocidade="001">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        <faixa velocidade="001">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="52">
+        <faixa velocidade="001">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+    <Unidade Primaria="50">
+        <faixa velocidade="001">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+        <faixa velocidade="002">
+            <Conteudo indice="32" valor="-1"/>
+        </faixa>
+    </Unidade>
+
+</SCM9>
+<SCM10>
+    <Unidade Primaria="31">
+        
+            <Conteudo indice="034" valor="1674"/>        
+            <Conteudo indice="035" valor="2037"/>        
+            <Conteudo indice="036" valor="216"/>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        
+            <Conteudo indice="034" valor="453"/>        
+            <Conteudo indice="035" valor="581"/>        
+            <Conteudo indice="036" valor="68"/>
+
+    </Unidade>
+
+    <Unidade Primaria="52">
+        
+            <Conteudo indice="034" valor="104"/>        
+            <Conteudo indice="035" valor="130"/>        
+            <Conteudo indice="036" valor="13"/>
+
+    </Unidade>
+
+    <Unidade Primaria="50">
+        
+            <Conteudo indice="034" valor="28"/>        
+            <Conteudo indice="035" valor="29"/>        
+            <Conteudo indice="036" valor="0"/>
+
+    </Unidade>
+
+</SCM10>
+<SCM11>
+    <Unidade Primaria="31">
+        
+            <Conteudo indice="038" valor="6719"/>        
+            <Conteudo indice="039" valor="7506"/>        
+            <Conteudo indice="040" valor="317"/>
+    </Unidade>
+
+    <Unidade Primaria="35">
+        
+            <Conteudo indice="038" valor="2203"/>        
+            <Conteudo indice="039" valor="2448"/>        
+            <Conteudo indice="040" valor="83"/>
+
+    </Unidade>
+
+    <Unidade Primaria="52">
+        
+            <Conteudo indice="038" valor="462"/>        
+            <Conteudo indice="039" valor="472"/>        
+            <Conteudo indice="040" valor="6"/>
+
+    </Unidade>
+
+    <Unidade Primaria="50">
+        
+            <Conteudo indice="038" valor="390"/>        
+            <Conteudo indice="039" valor="429"/>        
+            <Conteudo indice="040" valor="12"/>
+
+    </Unidade>
+
+</SCM11>
+<SCM13>
+    <Unidade Primaria="31">
+        
+            <Conteudo indice="041" valor="3527"/>        
+            <Conteudo indice="042" valor="91"/>        
+            <Conteudo indice="43" valor="3618"/>
+
+    </Unidade>
+
+    <Unidade Primaria="35">
+        
+            <Conteudo indice="041" valor="1291"/>        
+            <Conteudo indice="042" valor="29"/>        
+            <Conteudo indice="43" valor="1320"/>
+
+    </Unidade>
+
+    <Unidade Primaria="52">
+        
+            <Conteudo indice="041" valor="140"/>        
+            <Conteudo indice="042" valor="0"/>        
+            <Conteudo indice="43" valor="140"/>
+
+    </Unidade>
+
+    <Unidade Primaria="50">
+        
+            <Conteudo indice="041" valor="54"/>        
+            <Conteudo indice="042" valor="0"/>        
+            <Conteudo indice="43" valor="54"/>
+
+    </Unidade>
+
+</SCM13>
+<SCM14>
+    <Unidade Primaria="31">
+        
+            <Conteudo indice="44" valor="54058"/>        
+            <Conteudo indice="45" valor="54881"/>        
+            <Conteudo indice="46" valor="118"/>        
+            <Conteudo indice="47" valor="318"/>
+
+    </Unidade>
+
+    <Unidade Primaria="35">
+        
+            <Conteudo indice="44" valor="19846"/>        
+            <Conteudo indice="45" valor="20104"/>        
+            <Conteudo indice="46" valor="43"/>        
+            <Conteudo indice="47" valor="95"/>
+
+    </Unidade>
+
+    <Unidade Primaria="52">
+        
+            <Conteudo indice="44" valor="3416"/>        
+            <Conteudo indice="45" valor="3455"/>        
+            <Conteudo indice="46" valor="8"/>        
+            <Conteudo indice="47" valor="17"/>
+
+    </Unidade>
+
+    <Unidade Primaria="50">
+        
+            <Conteudo indice="44" valor="953"/>        
+            <Conteudo indice="45" valor="967"/>        
+            <Conteudo indice="46" valor="4"/>        
+            <Conteudo indice="47" valor="6"/>
+
+    </Unidade>
+
+</SCM14>
+</Outorga>
+<DPM1>
+	 <Conteudo indice="048" valor="http://www.ctbc.com.br/section.do?CodSec=16881"/>
+</DPM1>
+<DPM2>
+	 <Conteudo indice="049" valor="-1"/>
+</DPM2>
+<DPM3>
+	 <Conteudo indice="050" valor="-1"/>
+</DPM3>
+<DPM4>
+	 <Conteudo indice="051" valor="-1"/>
+</DPM4>
+<DPM5>
+	 <Conteudo indice="052" valor="-1"/>
+</DPM5>
+<DPM6>
+	 <Conteudo indice="053" valor="http://www.ctbc.com.br/section.do?CodSec=16881"/>
+</DPM6>
+</ColetaSMP>
+</root>
+
