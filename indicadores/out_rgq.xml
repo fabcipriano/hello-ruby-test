@@ -1,0 +1,784 @@
+<root>
+    <ColetaSMP ano='2012' mes='8' TipoArquivo='0' Identificador='stringxxxxx'>
+        <Outorga CNPJ='05835916000185'>
+            <SMP3>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='991'/>
+                        <Conteudo indice='015' valor='1003'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='1036'/>
+                        <Conteudo indice='015' valor='1048'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='212'/>
+                        <Conteudo indice='015' valor='214'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='202'/>
+                        <Conteudo indice='015' valor='204'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='16410'/>
+                        <Conteudo indice='015' valor='16608'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='17551'/>
+                        <Conteudo indice='015' valor='17755'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='299'/>
+                        <Conteudo indice='015' valor='299'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='470'/>
+                        <Conteudo indice='015' valor='473'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='677'/>
+                        <Conteudo indice='015' valor='698'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='796'/>
+                        <Conteudo indice='015' valor='804'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='837'/>
+                        <Conteudo indice='015' valor='846'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='915'/>
+                        <Conteudo indice='015' valor='924'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='016' valor='0'/>
+                        <Conteudo indice='014' valor='190'/>
+                        <Conteudo indice='015' valor='191'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='054' valor='0'/>
+                        <Conteudo indice='014' valor='167'/>
+                        <Conteudo indice='015' valor='167'/>
+                    </Periodo>
+                </Unidade>
+            </SMP3>
+            <SMP4>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='74287'/>
+                        <Conteudo indice='018' valor='119573'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='12082'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='57278'/>
+                        <Conteudo indice='018' valor='98095'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='12286'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='16388'/>
+                        <Conteudo indice='018' valor='27495'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='3503'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='14623'/>
+                        <Conteudo indice='018' valor='24862'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='3587'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='861270'/>
+                        <Conteudo indice='018' valor='1471109'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='237287'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='803368'/>
+                        <Conteudo indice='018' valor='1456753'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='269941'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='9798'/>
+                        <Conteudo indice='018' valor='18055'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='3027'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='12730'/>
+                        <Conteudo indice='018' valor='23326'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='3836'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='39248'/>
+                        <Conteudo indice='018' valor='65852'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='7533'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='29523'/>
+                        <Conteudo indice='018' valor='52404'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='7041'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='31915'/>
+                        <Conteudo indice='018' valor='54137'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='6280'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='28350'/>
+                        <Conteudo indice='018' valor='51357'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='6473'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='021' valor='0'/>
+                        <Conteudo indice='017' valor='2801'/>
+                        <Conteudo indice='018' valor='5183'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='592'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='055' valor='0'/>
+                        <Conteudo indice='017' valor='2339'/>
+                        <Conteudo indice='018' valor='4876'/>
+                        <Conteudo indice='019' valor='0'/>
+                        <Conteudo indice='020' valor='675'/>
+                    </Periodo>
+                </Unidade>
+            </SMP4>
+            <SMP5>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='1123095'/>
+                        <Conteudo indice='023' valor='1125637'/>
+                        <Conteudo indice='024' valor='195139'/>
+                        <Conteudo indice='025' valor='196214'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='1046021'/>
+                        <Conteudo indice='023' valor='1048597'/>
+                        <Conteudo indice='024' valor='163966'/>
+                        <Conteudo indice='025' valor='164923'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='274461'/>
+                        <Conteudo indice='023' valor='275368'/>
+                        <Conteudo indice='024' valor='45678'/>
+                        <Conteudo indice='025' valor='45842'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='242372'/>
+                        <Conteudo indice='023' valor='243507'/>
+                        <Conteudo indice='024' valor='40578'/>
+                        <Conteudo indice='025' valor='40732'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='8120054'/>
+                        <Conteudo indice='023' valor='8160071'/>
+                        <Conteudo indice='024' valor='2332973'/>
+                        <Conteudo indice='025' valor='2347410'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='8053552'/>
+                        <Conteudo indice='023' valor='8121980'/>
+                        <Conteudo indice='024' valor='2304298'/>
+                        <Conteudo indice='025' valor='2326183'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='94970'/>
+                        <Conteudo indice='023' valor='95129'/>
+                        <Conteudo indice='024' valor='26786'/>
+                        <Conteudo indice='025' valor='26847'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='124376'/>
+                        <Conteudo indice='023' valor='145586'/>
+                        <Conteudo indice='024' valor='34377'/>
+                        <Conteudo indice='025' valor='34481'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='600965'/>
+                        <Conteudo indice='023' valor='602204'/>
+                        <Conteudo indice='024' valor='122051'/>
+                        <Conteudo indice='025' valor='122564'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='575313'/>
+                        <Conteudo indice='023' valor='576821'/>
+                        <Conteudo indice='024' valor='103339'/>
+                        <Conteudo indice='025' valor='103876'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='432715'/>
+                        <Conteudo indice='023' valor='435461'/>
+                        <Conteudo indice='024' valor='108897'/>
+                        <Conteudo indice='025' valor='109311'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='433574'/>
+                        <Conteudo indice='023' valor='435169'/>
+                        <Conteudo indice='024' valor='111036'/>
+                        <Conteudo indice='025' valor='111631'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='026' valor='0'/>
+                        <Conteudo indice='022' valor='46656'/>
+                        <Conteudo indice='023' valor='46791'/>
+                        <Conteudo indice='024' valor='5594'/>
+                        <Conteudo indice='025' valor='5613'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='056' valor='0'/>
+                        <Conteudo indice='022' valor='61631'/>
+                        <Conteudo indice='023' valor='62382'/>
+                        <Conteudo indice='024' valor='5013'/>
+                        <Conteudo indice='025' valor='5029'/>
+                    </Periodo>
+                </Unidade>
+            </SMP5>
+            <SMP7>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='1206'/>
+                        <Conteudo indice='031' valor='131731'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='1150'/>
+                        <Conteudo indice='031' valor='100554'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='354'/>
+                        <Conteudo indice='031' valor='29715'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='274'/>
+                        <Conteudo indice='031' valor='25907'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='18802'/>
+                        <Conteudo indice='031' valor='1556296'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='22215'/>
+                        <Conteudo indice='031' valor='1462462'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='229'/>
+                        <Conteudo indice='031' valor='17615'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='238'/>
+                        <Conteudo indice='031' valor='23231'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='493'/>
+                        <Conteudo indice='031' valor='73386'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='477'/>
+                        <Conteudo indice='031' valor='54926'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='665'/>
+                        <Conteudo indice='031' valor='56446'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='587'/>
+                        <Conteudo indice='031' valor='51072'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='1'>
+                        <Fator Ponderacao='032' valor='0'/>
+                        <Conteudo indice='030' valor='79'/>
+                        <Conteudo indice='031' valor='4972'/>
+                    </Periodo>
+                    <Periodo Coleta='2'>
+                        <Fator Ponderacao='057' valor='0'/>
+                        <Conteudo indice='030' valor='97'/>
+                        <Conteudo indice='031' valor='4281'/>
+                    </Periodo>
+                </Unidade>
+            </SMP7>
+            <SMP1>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='243'/>
+                        <Conteudo indice='003' valor='4'/>
+                        <Conteudo indice='004' valor='7'/>
+                        <Conteudo indice='005' valor='1'/>
+                        <Conteudo indice='006' valor='20'/>
+                        <Conteudo indice='007' valor='58'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='49'/>
+                        <Conteudo indice='003' valor='0'/>
+                        <Conteudo indice='004' valor='3'/>
+                        <Conteudo indice='005' valor='0'/>
+                        <Conteudo indice='006' valor='4'/>
+                        <Conteudo indice='007' valor='10'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='1458'/>
+                        <Conteudo indice='003' valor='42'/>
+                        <Conteudo indice='004' valor='57'/>
+                        <Conteudo indice='005' valor='2'/>
+                        <Conteudo indice='006' valor='150'/>
+                        <Conteudo indice='007' valor='549'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='3'/>
+                        <Conteudo indice='003' valor='1'/>
+                        <Conteudo indice='004' valor='4'/>
+                        <Conteudo indice='005' valor='0'/>
+                        <Conteudo indice='006' valor='3'/>
+                        <Conteudo indice='007' valor='1'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='121'/>
+                        <Conteudo indice='003' valor='4'/>
+                        <Conteudo indice='004' valor='0'/>
+                        <Conteudo indice='005' valor='0'/>
+                        <Conteudo indice='006' valor='15'/>
+                        <Conteudo indice='007' valor='20'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='73'/>
+                        <Conteudo indice='003' valor='1'/>
+                        <Conteudo indice='004' valor='2'/>
+                        <Conteudo indice='005' valor='0'/>
+                        <Conteudo indice='006' valor='13'/>
+                        <Conteudo indice='007' valor='23'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='002' valor='7'/>
+                        <Conteudo indice='003' valor='0'/>
+                        <Conteudo indice='004' valor='0'/>
+                        <Conteudo indice='005' valor='0'/>
+                        <Conteudo indice='006' valor='0'/>
+                        <Conteudo indice='007' valor='0'/>
+                    </Periodo>
+                </Unidade>
+            </SMP1>
+            <SMP8>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='1268938'/>
+                        <Conteudo indice='034' valor='1401449'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='234061'/>
+                        <Conteudo indice='034' valor='261730'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='9381830'/>
+                        <Conteudo indice='034' valor='10252152'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='88502'/>
+                        <Conteudo indice='034' valor='107357'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='866324'/>
+                        <Conteudo indice='034' valor='902621'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='451683'/>
+                        <Conteudo indice='034' valor='485707'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='035' valor='0'/>
+                        <Conteudo indice='033' valor='81355'/>
+                        <Conteudo indice='034' valor='84038'/>
+                    </Periodo>
+                </Unidade>
+            </SMP8>
+            <SMP9>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='1013'/>
+                        <Conteudo indice='037' valor='1401449'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='150'/>
+                        <Conteudo indice='037' valor='261730'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='160458'/>
+                        <Conteudo indice='037' valor='10252152'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='80'/>
+                        <Conteudo indice='037' valor='107357'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='88357'/>
+                        <Conteudo indice='037' valor='902621'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='586'/>
+                        <Conteudo indice='037' valor='485707'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='3'>
+                        <Fator Ponderacao='038' valor='0'/>
+                        <Conteudo indice='036' valor='206'/>
+                        <Conteudo indice='037' valor='84038'/>
+                    </Periodo>
+                </Unidade>
+            </SMP9>
+            <SMP13>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='650529'/>
+                        <Conteudo indice='049' valor='651094'/>
+                        <Conteudo indice='050' valor='52'/>
+                        <Conteudo indice='051' valor='52'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='12574'/>
+                        <Conteudo indice='049' valor='12575'/>
+                        <Conteudo indice='050' valor='0'/>
+                        <Conteudo indice='051' valor='0'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='26529'/>
+                        <Conteudo indice='049' valor='26577'/>
+                        <Conteudo indice='050' valor='6'/>
+                        <Conteudo indice='051' valor='11'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='34549'/>
+                        <Conteudo indice='049' valor='34575'/>
+                        <Conteudo indice='050' valor='1'/>
+                        <Conteudo indice='051' valor='4'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='3522'/>
+                        <Conteudo indice='049' valor='3525'/>
+                        <Conteudo indice='050' valor='0'/>
+                        <Conteudo indice='051' valor='0'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='50862'/>
+                        <Conteudo indice='049' valor='50945'/>
+                        <Conteudo indice='050' valor='7'/>
+                        <Conteudo indice='051' valor='7'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='048' valor='13744'/>
+                        <Conteudo indice='049' valor='13758'/>
+                        <Conteudo indice='050' valor='1'/>
+                        <Conteudo indice='051' valor='2'/>
+                    </Periodo>
+                </Unidade>
+            </SMP13>
+            <SMP14>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='169'/>
+                        <Conteudo indice='053' valor='170'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='74'/>
+                        <Conteudo indice='053' valor='74'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='1671'/>
+                        <Conteudo indice='053' valor='1681'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='22'/>
+                        <Conteudo indice='053' valor='22'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='29'/>
+                        <Conteudo indice='053' valor='29'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='86'/>
+                        <Conteudo indice='053' valor='86'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='052' valor='7'/>
+                        <Conteudo indice='053' valor='7'/>
+                    </Periodo>
+                </Unidade>
+            </SMP14>
+            <SMP12>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='204'/>
+                        <Conteudo indice='045' valor='208'/>
+                        <Conteudo indice='046' valor='2'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='25'/>
+                        <Conteudo indice='045' valor='25'/>
+                        <Conteudo indice='046' valor='0'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='2844'/>
+                        <Conteudo indice='045' valor='2908'/>
+                        <Conteudo indice='046' valor='17'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='19'/>
+                        <Conteudo indice='045' valor='19'/>
+                        <Conteudo indice='046' valor='0'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='133'/>
+                        <Conteudo indice='045' valor='133'/>
+                        <Conteudo indice='046' valor='0'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='112'/>
+                        <Conteudo indice='045' valor='122'/>
+                        <Conteudo indice='046' valor='4'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='4'>
+                        <Conteudo indice='044' valor='18'/>
+                        <Conteudo indice='045' valor='18'/>
+                        <Conteudo indice='046' valor='0'/>
+                    </Periodo>
+                </Unidade>
+            </SMP12>
+            <SMP6>
+                <Unidade Primaria='00546'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='66234'/>
+                        <Conteudo indice='028' valor='68007'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00549'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='9871'/>
+                        <Conteudo indice='028' valor='10300'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00551'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='837612'/>
+                        <Conteudo indice='028' valor='872245'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00554'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='13083'/>
+                        <Conteudo indice='028' valor='13947'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00556'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='20596'/>
+                        <Conteudo indice='028' valor='21140'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00558'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='20510'/>
+                        <Conteudo indice='028' valor='21648'/>
+                    </Periodo>
+                </Unidade>
+                <Unidade Primaria='00561'>
+                    <Periodo Coleta='4'>
+                        <Fator Ponderacao='029' valor='0'/>
+                        <Conteudo indice='027' valor='2705'/>
+                        <Conteudo indice='028' valor='2973'/>
+                    </Periodo>
+                </Unidade>
+            </SMP6>
+        </Outorga>
+    </ColetaSMP>
+</root>
