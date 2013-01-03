@@ -13,6 +13,8 @@ class Proxy
     begin
       # Start our server to handle connections (will raise things on errors)
       @socket = TCPServer.new port
+
+      puts "Listening on port #{port} ..."
       
       # Handle every request in another thread
       loop do
@@ -35,9 +37,6 @@ class Proxy
   
   def handle_request to_client
     request_line = to_client.readline
-    
-    puts ("request_line=#{request_line}")
-    puts ("request_line.class=#{request_line.class}")
     
     verb    = request_line[/^\w+/]
     url     = request_line[/^\w+\s+(\S+)/, 1]
