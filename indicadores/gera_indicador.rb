@@ -49,10 +49,10 @@ if (ARGV.size == 3)
 		r.build
 	else
 		puts("Missing operator type: -rgq or -scm")
-		puts("Usage: ruby gera_indicador.rb <tipo de indicador ssing(-rgq ou -scm) > <in.xlsx> <out.xml>")
+		puts("Usage: ruby gera_indicador.rb <tipo de indicador> (-rgq ou -scm) <in.xlsx> <out.xml>")
 	end	
 else
-    puts("Usage: ruby gera_indicador.rb <tipo de indicador (-rgq ou -scm) > <in.xlsx> <out.xml>")
+    puts("Usage: ruby gera_indicador.rb <tipo de indicador> (-rgq ou -scm) <in.xlsx> <out.xml>")
 end
 
 #End Main()

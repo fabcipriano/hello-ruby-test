@@ -44,7 +44,10 @@ class Proxy
     uri     = URI::parse url
     
     # Show what got requested
-    puts((" %4s "%verb) + url)
+    puts(("---> %4s "%verb) + url)
+    
+    puts ("===== Sending =====>")
+    puts (request_line) 
     
     to_server = TCPSocket.new(uri.host, (uri.port.nil? ? 80 : uri.port))
     to_server.write("#{verb} #{uri.path}?#{uri.query} HTTP/#{version}\r\n")
@@ -53,6 +56,8 @@ class Proxy
     
     loop do      
       line = to_client.readline
+      
+      puts (line) 
       
       if line =~ /^Content-Length:\s+(\d+)\s*$/
         content_len = $1.to_i
@@ -75,9 +80,11 @@ class Proxy
     end
     
     buff = ""
+    puts ("<===== Receving =====")
     loop do
       to_server.read(4048, buff)
       to_client.write(buff)
+      puts(buff)
       break if buff.size < 4048
     end
     
