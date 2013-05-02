@@ -9,7 +9,7 @@ class NormalWeb
         'Hello World!!!'
     end
     
-    get '/template' do
+    get '/xmltransform' do
         erb :normal                
     end
     
