@@ -3,7 +3,6 @@ require "csv"
 
 class TaskReader
 
-#	include REXML
 
 	def initialize ()
 		@tarefas = {}
@@ -12,11 +11,6 @@ class TaskReader
     def read_event_received(dirname, file)
 	    completefilename = dirname + file
 		
-		
-#		doc = Document.new @file
-#		notifications = XPath.first(doc, "//task:taskStateAutomationNotifications", {'task' => 'http://xmlns.oracle.com/communications/sce/osm/model/process/task'})		
-#		puts notifications
-
 		if ((file == '.') || (file == '..'))
 		    puts ('Current dir or Parent dir, exit!')
 		    return
